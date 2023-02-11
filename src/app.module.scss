@@ -1,0 +1,41 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.wrapper {
+  margin: 0 auto;
+  margin-top: 150px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.graphBtn {
+  padding: 15px;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+
+  &__addBtn,
+  &__removeBtn {
+    min-width: 100px;
+    padding: 0.3rem 0.5rem;
+    font-size: 1.1rem;
+  }
+
+  &__removeBtn {
+    color: red;
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+}

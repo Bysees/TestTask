@@ -1,0 +1,12 @@
+.container {
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  right: 100%;
+  top: 0;
+  bottom: 100%;
+  background-color: rgba(240, 255, 255, 0.51);
+
+  height: 100%;
+  width: 100%;
+}
